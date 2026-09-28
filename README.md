@@ -17,6 +17,9 @@ Claude に質問しながら、少しずつ Markdown / PowerPoint ファイル�
 ### GitHub Foundations 認定資格(GitHub機能そのものの学習)
 - [`github-foundations-study-guide.md`](./github-foundations-study-guide.md) — Git/GitHubの機能リファレンス(Issues・Pull Requests・Actions・Projects・セキュリティ管理など、ドメイン1〜7)
 
+### Anthropic公式トレーニング資料(Claude Academy・Claude Camp)
+- [`claude-camp-training-notes.pptx`](./claude-camp-training-notes.pptx) — Claude Academy「Claude Code 101」コース、公式Quickstart/CLAUDE.md・自動メモリのドキュメント、Claude Camp講演5本(Getting Started with Claude Code、Moving to the Frontier、Proving value and controlling cost、AI Fluency、Your first real workflow in Cowork)をまとめたパワーポイント。**今後はこのファイルを改版していく形で育てる**
+
 ### その他
 - [`claude-github-notes.md`](./claude-github-notes.md) — Claude の資格・利用メモと GitHub の利用法に関する初期メモ
 
@@ -40,6 +43,9 @@ Notes are gradually written into Markdown / PowerPoint files by asking Claude qu
 
 ### GitHub Foundations certification (learning GitHub's features)
 - [`github-foundations-study-guide.md`](./github-foundations-study-guide.md) — Reference notes on GitHub's own features (Issues, Pull Requests, Actions, Projects, security/admin — Domains 1-7)
+
+### Official Anthropic training material (Claude Academy / Claude Camp)
+- [`claude-camp-training-notes.pptx`](./claude-camp-training-notes.pptx) — Slide deck covering the Claude Academy "Claude Code 101" course, the official Quickstart/CLAUDE.md/auto-memory docs, and 5 Claude Camp sessions (Getting Started with Claude Code, Moving to the Frontier, Proving value and controlling cost, AI Fluency, Your first real workflow in Cowork). **This file is revised over time going forward**
 
 ### Misc
 - [`claude-github-notes.md`](./claude-github-notes.md) — Early notes on Claude usage/credentials and how to use GitHub
