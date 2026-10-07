@@ -2,7 +2,7 @@
 
 # Claude Code Study Notes
 
-*A study note covering Claude Academy's "Claude Code 101" course, the official Quickstart guide, and summaries of five Claude Camp talks.*
+*A study note covering Claude Academy's "Claude Code 101" course, the official Quickstart guide, summaries of five Claude Camp talks, and the Claude Frontier Academy enterprise training program.*
 
 *Study notes based on Anthropic's official training materials.*
 
@@ -15,6 +15,7 @@
 5. **Claude Camp: Proving value and controlling cost** — cost management and real-world value examples
 6. **Claude Camp: AI Fluency** — the 4D framework and organizational adoption
 7. **Claude Camp: Your first real workflow in Cowork** — building a practical workflow in Cowork
+8. **Claude Frontier Academy** — Anthropic's enterprise AI talent development program ($100M investment, Frontier Deployed Engineers)
 
 ---
 
@@ -845,7 +846,29 @@ For the first 2–3 weeks, confirming everything step-by-step is actually slower
 
 ---
 
-# Part 5: Glossary & Wrap-Up
+# Part 5: Claude Frontier Academy
+
+*Anthropic's enterprise AI talent development program, announced in 2025.*
+
+**$100M investment · Goal: train 10,000 Frontier Deployed Engineers (FDEs) by the end of 2027 · 12-week residency · Running in San Francisco, New York, and London**
+
+### Program structure (a medical-residency training model)
+
+1. **Multi-day in-person training** directly with Anthropic engineers
+2. **Simulated enterprise deployment exercises** — a mock walkthrough from use-case selection through security review
+3. **Graded practical assessments**
+4. **A 12-week residency back at their own organization**, leading a real Claude project they brought with them
+5. **A final assessment**, leading to the "Claude Frontier Deployed Engineer (FDE)" badge
+
+### Who it's for, and participating organizations
+
+Organizations nominate hands-on software engineers with a track record of building with LLMs and helping others adopt AI within their business — each arrives with a named Claude project to lead upon return. Initial cohorts include engineers from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley, and Novo Nordisk. The program builds on the existing **Claude Partner Network**, under which over 175,000 professionals have already earned Claude certifications.
+
+*Source: Anthropic official news, "Claude Frontier Academy" (anthropic.com/news/claude-frontier-academy)*
+
+---
+
+# Part 6: Glossary & Wrap-Up
 
 | Term | Meaning |
 |---|---|

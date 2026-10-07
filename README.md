@@ -22,7 +22,7 @@ Claude に質問しながら、少しずつ Markdown / PowerPoint ファイル�
 - [`github-foundations-study-guide.en.md`](./github-foundations-study-guide.en.md) — 上記の英語訳(共有用)
 
 ### Anthropic公式トレーニング資料(Claude Academy・Claude Camp)
-- [`claude-camp-training-notes.pptx`](./claude-camp-training-notes.pptx) — Claude Academy「Claude Code 101」コース(全12レッスン)、公式Quickstart/CLAUDE.md・自動メモリのドキュメント、Claude Camp講演5本(Getting Started with Claude Code、Moving to the Frontier、Proving value and controlling cost、AI Fluency、Your first real workflow in Cowork)をまとめたパワーポイント(日本語)。**今後はこのファイルを改版していく形で育てる**
+- [`claude-camp-training-notes.pptx`](./claude-camp-training-notes.pptx) — Claude Academy「Claude Code 101」コース(全12レッスン)、公式Quickstart/CLAUDE.md・自動メモリのドキュメント、Claude Camp講演5本(Getting Started with Claude Code、Moving to the Frontier、Proving value and controlling cost、AI Fluency、Your first real workflow in Cowork)、Claude Frontier Academy(企業向けAI人材育成プログラム)をまとめたパワーポイント(日本語)。**今後はこのファイルを改版していく形で育てる**
 - [`claude-camp-training-notes.en.md`](./claude-camp-training-notes.en.md) — 上記の英語訳(Markdown、共有用)
 
 ### PyTorch / 深層学習(Zero to Mastery PyTorchコース)
@@ -57,7 +57,7 @@ Notes are gradually written into Markdown / PowerPoint files by asking Claude qu
 - [`github-foundations-study-guide.en.md`](./github-foundations-study-guide.en.md) — English translation (for sharing)
 
 ### Official Anthropic training material (Claude Academy / Claude Camp)
-- [`claude-camp-training-notes.pptx`](./claude-camp-training-notes.pptx) — Slide deck (Japanese) covering the Claude Academy "Claude Code 101" course (all 12 lessons), the official Quickstart/CLAUDE.md/auto-memory docs, and 5 Claude Camp sessions (Getting Started with Claude Code, Moving to the Frontier, Proving value and controlling cost, AI Fluency, Your first real workflow in Cowork). **This file is revised over time going forward**
+- [`claude-camp-training-notes.pptx`](./claude-camp-training-notes.pptx) — Slide deck (Japanese) covering the Claude Academy "Claude Code 101" course (all 12 lessons), the official Quickstart/CLAUDE.md/auto-memory docs, 5 Claude Camp sessions (Getting Started with Claude Code, Moving to the Frontier, Proving value and controlling cost, AI Fluency, Your first real workflow in Cowork), and Claude Frontier Academy (Anthropic's enterprise AI talent program). **This file is revised over time going forward**
 - [`claude-camp-training-notes.en.md`](./claude-camp-training-notes.en.md) — English translation (Markdown, for sharing)
 
 ### PyTorch / Deep Learning (Zero to Mastery PyTorch course)
