@@ -25,6 +25,9 @@ Claude に質問しながら、少しずつ Markdown / PowerPoint ファイル�
 - [`claude-camp-training-notes.pptx`](./claude-camp-training-notes.pptx) — Claude Academy「Claude Code 101」コース(全12レッスン)、公式Quickstart/CLAUDE.md・自動メモリのドキュメント、Claude Camp講演5本(Getting Started with Claude Code、Moving to the Frontier、Proving value and controlling cost、AI Fluency、Your first real workflow in Cowork)、Claude Frontier Academy(企業向けAI人材育成プログラム)をまとめたパワーポイント(日本語)。**今後はこのファイルを改版していく形で育てる**
 - [`claude-camp-training-notes.en.md`](./claude-camp-training-notes.en.md) — 上記の英語訳(Markdown、共有用)
 
+### Claudeをより使いこなす(Claude API / Claude Cookbook)
+- [`claude-api-usage-notes.md`](./claude-api-usage-notes.md) — [Claude Cookbook](https://platform.claude.com/cookbook/)から厳選した、Claude APIをアプリ開発に活用するためのガイド(日本語)。ツール利用・拡張思考・プロンプトキャッシュ・引用機能・Vision・Batch API・RAG・Evals・Skills・コスト管理(Admin API)を解説
+
 ### PyTorch / 深層学習(Zero to Mastery PyTorchコース)
 - [`pytorch-deep-learning-notes.md`](./pytorch-deep-learning-notes.md) — [Zero to Mastery: Learn PyTorch for Deep Learning](https://github.com/mrdbourke/pytorch-deep-learning) コースの学習ノート(日本語)。機械学習の基礎(0章)から、PyTorch基礎・学習ワークフロー・分類・Computer Vision・カスタムデータセット・コードのモジュール化・転移学習・実験管理・Vision Transformer論文の再現実装・モデルデプロイ(00〜09章)までを網羅
 
@@ -59,6 +62,9 @@ Notes are gradually written into Markdown / PowerPoint files by asking Claude qu
 ### Official Anthropic training material (Claude Academy / Claude Camp)
 - [`claude-camp-training-notes.pptx`](./claude-camp-training-notes.pptx) — Slide deck (Japanese) covering the Claude Academy "Claude Code 101" course (all 12 lessons), the official Quickstart/CLAUDE.md/auto-memory docs, 5 Claude Camp sessions (Getting Started with Claude Code, Moving to the Frontier, Proving value and controlling cost, AI Fluency, Your first real workflow in Cowork), and Claude Frontier Academy (Anthropic's enterprise AI talent program). **This file is revised over time going forward**
 - [`claude-camp-training-notes.en.md`](./claude-camp-training-notes.en.md) — English translation (Markdown, for sharing)
+
+### Using Claude more effectively (Claude API / Claude Cookbook)
+- [`claude-api-usage-notes.md`](./claude-api-usage-notes.md) — A guide (Japanese) curated from the [Claude Cookbook](https://platform.claude.com/cookbook/) on using the Claude API to build applications. Covers tool use, extended thinking, prompt caching, citations, vision, the Batch API, RAG, evals, Skills, and cost management (Admin API)
 
 ### PyTorch / Deep Learning (Zero to Mastery PyTorch course)
 - [`pytorch-deep-learning-notes.md`](./pytorch-deep-learning-notes.md) — Study notes (Japanese) on the [Zero to Mastery: Learn PyTorch for Deep Learning](https://github.com/mrdbourke/pytorch-deep-learning) course. Covers ML fundamentals (Section 0) through PyTorch basics, the training workflow, classification, computer vision, custom datasets, code modularization, transfer learning, experiment tracking, replicating the Vision Transformer paper, and model deployment (Sections 00-09)
