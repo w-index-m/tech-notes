@@ -17,6 +17,11 @@ Claude に質問しながら、少しずつ Markdown / PowerPoint ファイル�
 - [`cca-f-study-guide-supplement.md`](./cca-f-study-guide-supplement.md) — 本編に無かった内容の補足資料(日本語)
 - [`cca-f-study-guide-supplement.en.md`](./cca-f-study-guide-supplement.en.md) — 補足資料の英語訳(共有用)
 
+### Claude Certified Associate - Foundations (CCAO-F) 試験対策
+- [`ccao-f-study-guide.pptx`](./ccao-f-study-guide.pptx) — 参考書をスライド形式でまとめたパワーポイント版(全20枚、日本語)。非エンジニア向け資格(CCA-Fとは別資格)
+- [`ccao-f-study-guide.md`](./ccao-f-study-guide.md) — 参考書 Markdown版(本編、日本語)。Anthropic公式Exam Guide(英語版・日本語版)を一次情報として作成
+- [`ccao-f-study-guide.en.md`](./ccao-f-study-guide.en.md) — 本編の英語訳(共有用)
+
 ### GitHub Foundations 認定資格(GitHub機能そのものの学習)
 - [`github-foundations-study-guide.md`](./github-foundations-study-guide.md) — Git/GitHubの機能リファレンス(Issues・Pull Requests・Actions・Projects・セキュリティ管理など、ドメイン1〜7、日本語)
 - [`github-foundations-study-guide.en.md`](./github-foundations-study-guide.en.md) — 上記の英語訳(共有用)
@@ -54,6 +59,11 @@ Notes are gradually written into Markdown / PowerPoint files by asking Claude qu
 - [`cca-f-study-guide.en.md`](./cca-f-study-guide.en.md) — English translation of the main guide (for sharing)
 - [`cca-f-study-guide-supplement.md`](./cca-f-study-guide-supplement.md) — Supplementary notes not covered in the main guide (Japanese)
 - [`cca-f-study-guide-supplement.en.md`](./cca-f-study-guide-supplement.en.md) — English translation of the supplement (for sharing)
+
+### Claude Certified Associate - Foundations (CCAO-F) exam prep
+- [`ccao-f-study-guide.pptx`](./ccao-f-study-guide.pptx) — Slide-deck (PowerPoint) version of the study guide, 20 slides (Japanese). For non-engineers — a separate credential from CCA-F
+- [`ccao-f-study-guide.md`](./ccao-f-study-guide.md) — Study guide, Markdown version (main, Japanese), built from Anthropic's official Exam Guide (English and Japanese editions)
+- [`ccao-f-study-guide.en.md`](./ccao-f-study-guide.en.md) — English translation of the main guide (for sharing)
 
 ### GitHub Foundations certification (learning GitHub's features)
 - [`github-foundations-study-guide.md`](./github-foundations-study-guide.md) — Reference notes on GitHub's own features (Issues, Pull Requests, Actions, Projects, security/admin — Domains 1-7, Japanese)
