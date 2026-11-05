@@ -351,9 +351,9 @@ The basic rule of thumb is to choose by job function: CCAO-F for roles that don'
 
 ---
 
-# Question Bank (30 questions total: 3 official samples + 8 original practice questions + 19 Udemy practice-exam questions)
+# Question Bank (36 questions total: 3 official samples + 8 original practice questions + 25 Udemy practice-exam questions)
 
-> Questions 1–3 are the **official sample questions published in Section 8 of the official Anthropic Exam Guide** (explicitly noted as not excerpted from the actual item pool). Questions 4–11 are **original practice questions** written for this guide. Questions 12–30 are questions, **confirmed against the answer key**, taken from a Udemy practice exam the user actually took (Practice Exams: Claude Certified Associate Foundations CCAO-F). All of these are unofficial and are not actual Anthropic exam questions, but questions 12–30 were actually graded and their correct answers confirmed. The questions are ordered to follow the flow of Domains 1 through 7.
+> Questions 1–3 are the **official sample questions published in Section 8 of the official Anthropic Exam Guide** (explicitly noted as not excerpted from the actual item pool). Questions 4–11 are **original practice questions** written for this guide. Questions 12–36 are questions, **confirmed against the answer key**, taken from a Udemy practice exam the user actually took (Practice Exams: Claude Certified Associate Foundations CCAO-F). All of these are unofficial and are not actual Anthropic exam questions, but questions 12–36 were actually graded and their correct answers confirmed. The questions are ordered to follow the flow of Domains 1 through 7.
 
 ### Question 1 (Domain 2: Evaluating and Validating Outputs) — Official Sample Question
 
@@ -702,6 +702,79 @@ The basic rule of thumb is to choose by job function: CCAO-F for roles that don'
 - D. No. Converting internal procedures into a new checklist counts as workflow design and should first be routed to a Claude Architect or Developer
 
 **Explanation**: C is the model answer for "identifying appropriate use cases." Claude is only assisting with the draft, and a human (the supervisor) reviews and field-tests it before use — preserving the "a human retains final responsibility" design that runs through this entire certification. A takes the extreme, inappropriate position of banning AI drafting outright, B skips the crucial step of review/testing before use, and D over-escalates a task of this modest scope into Architect/Developer territory.
+
+### Question 31 (Domain 5: Configuration and Knowledge Management — Dealing with Stale Configuration) — Udemy Practice Exam
+
+**Question**: A compliance team's shared Project still has last year's policy manual and review checklist in it. This month, a revised review process was approved, but Claude keeps confidently answering according to the old process. What is the best way to get the Project's answers back on track?
+
+- A. Have a reviewer correct the answers that conflict with the new process, case by case, before staff use them with customers
+- B. Replace the old manual and checklist, update the instructions to match the new process, and re-test with typical questions before staff rely on it again **(Correct)**
+- C. Upload the revised manual alongside last year's version, and add an instruction saying "if the two disagree, prefer the most recent document"
+- D. Have staff explain the new process at the start of every chat, until the Project is rebuilt next quarter
+
+**Explanation**: B is exactly the teaching of Domain 5 (5-3, "ongoing maintenance of configuration"): remove the obsolete version, update the instructions themselves to match, and verify before relying on it. A is a case-by-case band-aid that doesn't fix the root cause. C has the same structure as the wrong answer in Question 23 (organizing a knowledge base) — leaving unnecessary files in place and delegating prioritization to Claude's judgment. D is just an inefficient manual workaround.
+
+### Question 32 (Domains 7/1: Troubleshooting / Prompting — Diagnosing a Prompt's Weakness) — Udemy Practice Exam
+
+**Question**: A museum analyst wrote a short Claude prompt that crammed four required questions into one comma-separated sentence. The response only answered the first question. Which diagnosis most directly identifies the prompt's weakness?
+
+- A. Conclude the prompt was too dense, and shorten it by cutting the background explanation surrounding the four questions
+- B. Identify that the questions weren't numbered and that there was no explicit instruction to answer all of them, and have Claude answer each of the four questions in order under numbered headings **(Correct)**
+- C. Conclude that the compound request exceeded what can be handled in a single turn, and send each of the four questions as a separate prompt
+- D. Conclude the model lacked the capability to handle a four-part analysis, and rerun the same compound prompt, unchanged, on a more capable, more expensive model
+
+**Explanation**: B accurately diagnoses the actual cause — the lack of numbering and an explicit instruction to answer every question — and pairs it with the right fix (structuring via numbered headings). A's background-text cut isn't the real cause, C overcorrects, since handling multiple questions in one turn isn't itself the problem, and D is a classic wrong-answer pattern: mistaking a prompt-design problem for a model-capability problem.
+
+### Question 33 (Domain 1: Prompting and Task Execution — Prompt Design for Consistency) — Udemy Practice Exam
+
+**Question**: An HR staffer is using Claude to convert 60 job descriptions into one-page summaries for a talent portal that requires 5 fixed headings and approved job-family terminology. The first 10 came out with inconsistent heading order, level of detail, and terminology. Which change would most improve consistency?
+
+- A. Spell out the 5 headings, the approved terminology, and a character limit, and include one approved input/output example **(Correct)**
+- B. Send all 60 as one long request, so the same judgment calls and phrasing get applied across every summary instead of starting fresh each time
+- C. Let Claude summarize freely first, then run a second pass that maps whatever headings it chose onto the portal's 5 required headings
+- D. Add an instruction telling Claude to stay consistent with the previous summaries in the conversation
+
+**Explanation**: A is exactly the basic elements of a good prompt from Domain 1: specifying the output format (headings, terminology, length) plus providing a few-shot example. Giving explicit criteria up front produces consistent output from the start. B just bundles everything into one request, which doesn't guarantee consistency by itself. C is a band-aid that fixes mismatches after the fact. D relies on an implicit "stay consistent with earlier output," with no explicit standard — weaker than A.
+
+### Question 34 (Domain 2: Evaluating and Validating Outputs — Addressing Selective Evidence (Bias)) — Udemy Practice Exam
+
+**Question**: A cooperative is reviewing a Claude recommendation to consolidate four regional packaging sites into one central site. The response cites evidence for operating-cost savings and feasibility, but the same source material also notes concerns about equipment-relocation costs and longer pickup routes, which the response omits. Which response best addresses this flaw?
+
+- A. Approve and use the consolidation recommendation as-is, and add an appendix covering equipment-relocation costs and longer pickup routes for readers who want detail
+- B. Address the equipment-relocation costs and longer pickup routes, explain their effect on the trade-offs, and require a revised version that incorporates that evidence into the recommendation itself before the cooperative relies on it **(Correct)**
+- C. Since every citation Claude chose accurately supports centralization, accept the conclusion as-is
+- D. Ask Claude to add further supporting evidence about operating-cost savings and state its confidence in centralization even more strongly
+
+**Explanation**: Only B gets at the root fix: incorporating the omitted counter-evidence into the recommendation's own trade-off analysis, and requiring a revision before use. A approves the still-biased recommendation as-is and merely tacks the counter-evidence on as an appendix, without fixing the core problem. C is a classic wrong answer — "each individual citation is accurate" and "the overall picture is biased (omission bias)" are two different issues. D moves in exactly the wrong direction, making the bias worse. This question tests a different kind of flaw than hallucination (Domain 2) — bias from selective presentation of evidence.
+
+### Question 35 (Domain 6: Governance, Risk, and Responsible Use — AI Fluency/Discernment) — Udemy Practice Exam
+
+**Question**: An analyst is reviewing a Claude-generated tourism brief before sharing it with a planning committee. Which action best applies the "Discernment" competency from the AI Fluency Framework?
+
+- A. Focus the review on the executive summary and recommendations section, since that's the part the committee will read and act on
+- B. Check the brief's conclusions against the analyst's own knowledge of regional tourism trends, and flag anything that conflicts with that professional experience
+- C. Confirm that every citation in the brief points to a real, credible tourism source, and check that the links open, before sharing it with the committee
+- D. Review the brief as a whole against the task requirements, the supporting evidence provided, and relevant professional standards, to judge whether it's fit to use with the committee **(Correct)**
+
+**Explanation (from the official rationale)**: Discernment means evaluating the quality and fitness of an AI-assisted deliverable rather than accepting it at face value. A systematic check needs to cover both what the brief needs to accomplish and whether its content is actually supported. The analyst should verify the required scope of coverage, the factual claims, the interpretation, and the fit for the intended readers; checking claims against sources can surface fabricated details, dropped caveats, or conclusions that go beyond the evidence. The analyst then uses those findings to revise, improve, or escalate the brief. Claude can help with the fix, but responsibility for judging whether the final deliverable meets the committee's needs rests with the analyst.
+
+- **Why C (confirming only that citations are real) is wrong**: confirming that sources exist is a useful first step, but it doesn't show whether each source actually supports the claim attached to it. Coverage against the task requirements also remains unverified.
+- **Why B (checking only against one's own expertise) is wrong**: professional knowledge is useful for knowing where to focus attention, but "matching your own expectations" isn't verification. A brief can match the analyst's impressions and still misstate its sources or miss requirements. Expertise should guide the review, not substitute for it.
+- **Why A (reviewing only the summary and recommendations) is wrong**: the recommendations rest on evidence in the body of the brief. A conclusion that looks reasonable on its face can rest on unsupported figures or a misread source, and a summary-only review would miss that.
+
+References: Claude Academy, "The 4 Ds of AI Fluency, Behavioral Indicators" and "AI Fluency, Framework and Foundations"; Claude Help Center, "Claude is providing incorrect or misleading responses. What's going on?"
+
+### Question 36 (Domain 5: Configuration and Knowledge Management — Establishing the Source of Truth and Summary Behavior) — Udemy Practice Exam
+
+**Question**: A tenant services team is setting up a Project to summarize current, approved policies for residents. Which **two** elements directly establish the authoritative source content and the required summary behavior?
+
+- A. Add the current, approved policy documents to the Project's knowledge, and keep them updated every time a policy changes **(Correct)**
+- B. Spell out, in the Project's instructions, the summary format and the requirements that residents, as the intended readers, need **(Correct)**
+- C. Add last year's policy digest to the Project's knowledge instead of the full documents
+- D. Give the Project a clear name and description that identify it as the resident-policy workspace
+- E. Add the team's communication style guide to the Project's knowledge as a primary reference
+
+**Explanation**: A directly establishes "the authoritative source content" (setting up the knowledge source — exactly a Domain 5 objective), and B directly establishes "the required summary behavior" (writing effective system-level instructions — also exactly a Domain 5 objective). C (substituting an outdated digest) undermines the authoritative source, D (name/description) is organizational tidiness but doesn't govern content or behavior, and E (making a style guide the primary reference) displaces the policy documents that should actually be authoritative — all three are inappropriate.
 
 ---
 
